@@ -1,0 +1,35 @@
+name: WhoPlugin
+main: no.atc.floyd.bukkit.who.WhoPlugin
+version: 1.26
+website: http://minecraft.atc.no/plugins
+author: FloydATC
+description: >
+        Show online players. AFK, auto-away and hidden players supported.
+commands:
+  who:
+    description: Show a list of online players
+    usage: /<command>
+  playerlist:
+    description: Show a list of online players
+    usage: /<command>
+  list:
+    description: Show a list of online players
+    usage: /<command>
+  online:
+    description: Show a list of online players
+    usage: /<command>
+  afk:
+    description: Tag yourself as Away From Keyboard (toggle)
+    usage: /<command> [<message>]
+  hide:
+    description: Hide yourself from the online player list (toggle)
+    usage: /<command>
+  tell:
+    description: Send a private message
+    usage: /<command> <player> <message>
+  msg:
+    description: Send a private message
+    usage: /<command> <player> <message>
+  whisper:
+    description: Send a private message
+    usage: /<command> <player> <message>
