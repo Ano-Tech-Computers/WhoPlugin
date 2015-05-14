@@ -1,10 +1,11 @@
-name: WhoPlugin
+name: "${project.name}"
 main: no.atc.floyd.bukkit.who.WhoPlugin
-version: 1.26
-website: http://minecraft.atc.no/plugins
+version: "${project.version}"
+website: "${project.url}"
 author: FloydATC
-description: >
-        Show online players. AFK, auto-away and hidden players supported.
+softdepend: [PermissionsEx]
+description: "${project.description}"
+
 commands:
   who:
     description: Show a list of online players
